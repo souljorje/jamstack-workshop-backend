@@ -10,16 +10,18 @@
     "strapi": "strapi"
   },
   "devDependencies": {
+    "babel-eslint": "^10.0.3",
     "cross-env": "^6.0.3",
-    "husky": "^4.0.9",
-    "lint-staged": "^10.0.2",
     "eslint": "^6.7.2",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
-    "babel-eslint": "^10.0.3",
+    "husky": "^4.0.9",
+    "lint-staged": "^10.0.2",
     "prettier": "^1.19.1"
   },
   "dependencies": {
+    "dotenv": "^8.2.0",
+    "find-config": "^1.0.0",
     "strapi": "3.0.0-beta.18.7",
     "strapi-admin": "3.0.0-beta.18.7",
     "strapi-connector-mongoose": "3.0.0-beta.18.7",
@@ -28,8 +30,8 @@
     "strapi-plugin-email": "3.0.0-beta.18.7",
     "strapi-plugin-graphql": "^3.0.0-beta.18.7",
     "strapi-plugin-upload": "3.0.0-beta.18.7",
-    "strapi-provider-upload-local-absolute-path": "file:providers/strapi-provider-upload-local-absolute-path",
     "strapi-plugin-users-permissions": "3.0.0-beta.18.7",
+    "strapi-provider-upload-local-absolute-path": "file:providers/strapi-provider-upload-local-absolute-path",
     "strapi-utils": "3.0.0-beta.18.7"
   },
   "author": {
@@ -39,8 +41,8 @@
     "uuid": "4f950967-d745-424c-b9dd-dd851bc4a666"
   },
   "engines": {
-    "yarn": ">=1.19.2 <2",
-    "node": ">=12.13.0 <13"
+    "yarn": ">=1.17.0 <2",
+    "node": ">=10.0.0 <13"
   },
   "license": "MIT"
 }

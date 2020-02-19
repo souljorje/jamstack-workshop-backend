@@ -4,15 +4,11 @@
     "default": {
       "connector": "mongoose",
       "settings": {
-        "database": "workshop",
-        "host": "127.0.0.1",
-        "srv": false,
-        "port": 27017,
-        "username": "",
-        "password": ""
+        "uri": "${process.env.DATABASE_URI || 'mongodb://localhost:27017'}",
+        "database": "${process.env.DATABASE_NAME || 'strapi'}"
       },
       "options": {
-        "authenticationDatabase": ""
+        "ssl": "${process.env.DATABASE_SSL || false}"
       }
     }
   }
