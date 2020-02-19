@@ -10,7 +10,7 @@ npm install
 # or
 yarn
 
-# run development version
+# run local development server
 npm run develop
 # or
 yarn develop
